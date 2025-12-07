@@ -373,9 +373,10 @@
 
         .footer-logo {
             font-size: 72px;
-            font-weight: 900;
+            font-weight: 500;
             color: #8b3a3a;
             letter-spacing: 8px;
+            font-family: jaro;
         }
 
         /* Responsive Design */
