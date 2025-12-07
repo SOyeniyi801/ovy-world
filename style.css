@@ -3,6 +3,10 @@
             padding: 0;
             box-sizing: border-box;
         }
+        html {
+            scroll-behavior: smooth;
+          }
+          
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
@@ -24,20 +28,22 @@
             text-align: center;
         }
 
-        .logo {
-            font-size: 48px;
-            font-weight: 900;
+        .hero-headline {
+            font-size: 96px;
+            font-weight: 500;
             color: #f4e4a8;
-            letter-spacing: 8px;
+            letter-spacing: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
             margin-bottom: 5px;
+            font-family: jaro;
         }
 
         .subtitle {
-            font-size: 14px;
+            font-size: 36px;
             color: #f4e4a8;
             letter-spacing: 2px;
             margin-bottom: 40px;
+            font-family: playball;
         }
 
         .hero-image {
@@ -58,8 +64,9 @@
         }
 
         .tagline {
-            font-size: 32px;
-            font-weight: 700;
+            font-size: 24px;
+            /* font-weight: 200; */
+            font-family: prompt;
             color: #f4e4a8;
             line-height: 1.3;
             margin-bottom: 30px;
@@ -105,7 +112,7 @@
 
         /* Music Player Section */
         .music-player {
-            background: #d4cfc7;
+            background: #8b3a3a;
             padding: 60px 0;
             text-align: center;
         }
@@ -271,7 +278,7 @@
 
         /* Tour Guide Section */
         .tour-guide {
-            background: #d4cfc7;
+            background: #363434;
             padding: 60px 0;
             text-align: center;
         }
@@ -279,13 +286,15 @@
         .section-title {
             font-size: 42px;
             font-weight: 900;
-            color: #1a1a1a;
+            color: #f4e4a8;
             line-height: 1.2;
+            margin-bottom: 20px;
+            font-family: prompt;
         }
 
         /* Contact Section */
         .contact {
-            background: #d4cfc7;
+            background: #8b3a3a;
             padding: 60px 0;
             text-align: center;
         }
