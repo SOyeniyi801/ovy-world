@@ -75,7 +75,7 @@ body {
 .img-top {
   z-index: 2;
   opacity: 1;
-  animation: crossfade 8s infinite;
+  animation: crossfade 4s infinite;
 }
 
 @keyframes crossfade {
