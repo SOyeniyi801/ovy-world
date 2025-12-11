@@ -361,14 +361,10 @@ body {
   }
 
   .hero-headline {
-    font-size: 100px;
+    font-size: 95px;
   }
 }
 @media (min-width: 768px) {
-    .hero-headline {
-        font-size: 125px;
-    }
-  
     .container {
     max-width: 600px;
   }
